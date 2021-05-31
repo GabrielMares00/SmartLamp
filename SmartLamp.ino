@@ -196,4 +196,8 @@ void loop()
   //calculeaza distanta bazata pe durata de traversare a ultrasound wave
   duration = pulseIn(echoPin, HIGH);
   distance = duration * 0.034 / 2;
+
+  //luminozitatea LEDului poate fi usor modificata si fara apelarea la partea de web
+  //prin apelarea functiei de changeDimLED() aici
+  //changeDimLED()
 }
